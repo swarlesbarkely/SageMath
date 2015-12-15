@@ -1,4 +1,11 @@
-def S2Z (Gs, T, MatchedFrequency):
+##################################################
+# Converts transfer function from S Plane to Z Plane
+# Gs -- Transfer function in S Plane
+# T -- Sampling time
+# MatchedFrequency -- Frequency to match gain at
+##################################################
+
+def S2Z (Gs, T, MatchedFrequency = 0):
 
 	j = CC.0
 	
